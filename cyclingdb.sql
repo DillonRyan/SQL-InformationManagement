@@ -26,12 +26,12 @@ CREATE TABLE IF NOT EXISTS `Coach` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 INSERT INTO `Coach` (`Coaches_ID`, `Coaches_Name`, `Email`, `Position`, `Phone_Number`) VALUES
-(`173423`, `John Smith`, `johnsmith@cycyling.com`, `Endurance Coach`, `0877654321`),
-(`177233`, `Shane Wall`, `ShaneWall@cycyling.com`,`Sprint Coach`, `0877123456`),
-(`172344`, `Caolan Foley`, `CaolanFoley@cycyling.com`,`Hill Coach`, `0875363686`),
-(`178654`, `Stephen Roche`, `StephenRoche@cycyling.com`,`Sprint Coach`, `0871236549`),
-(`179874`, `Sean Kinsella`, `SeanKinsella@cycyling.com`,`Endurance Coach`, `0879574263`),
-(`171233`, `Patrick Fenning`, `PatrickFenning@cycyling.com`,`Hill Coach`, `0871947556`);
+(`173423`, `John Smith`, `johnsmith@cycylingcoaching.com`, `Endurance Coach`, `0877654321`),
+(`177233`, `Shane Wall`, `ShaneWall@cycylingcoaching.com`,`Sprint Coach`, `0877123456`),
+(`172344`, `Caolan Foley`, `CaolanFoley@cycylingcoaching.com`,`Hill Coach`, `0875363686`),
+(`178654`, `Stephen Roche`, `StephenRoche@cycylingcoaching.com`,`Sprint Coach`, `0871236549`),
+(`179874`, `Sean Kinsella`, `SeanKinsella@cycylingcoaching.com`,`Endurance Coach`, `0879574263`),
+(`171233`, `Patrick Fenning`, `PatrickFenning@cycylingcoaching.com`,`Hill Coach`, `0871947556`);
 
 
 
