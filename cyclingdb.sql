@@ -1,4 +1,3 @@
-
 CREATE TABLE IF NOT EXISTS `Members` (
   `Member_ID` int(7) NOT NULL,
   `Member_Name` varchar(30) NOT NULL,
@@ -66,14 +65,12 @@ CREATE TABLE IF NOT EXISTS `Races` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
  INSERT INTO `Training` (`Date`, `Location`, `Training_Distance`, `Terrain`, `Coaches_Attending`) VALUES
- (`87654`, `EastSideRR`, `120`, `Hilly`, `EastSideCC`);
- 
- 
- 
- 
- 
- 
- 
+ (`11/04/2019`, `Kildare`, `90`, `Hilly`, `Patrick_Fenning`),
+ (`18/04/2019`, `Dublin`, `130`, `Flat`, `John_Cena`),
+ (`25/04/2019`, `Kildare`, `110`, `Rolly`, `Patrick_Fenning`),
+ (`01/05/2019`, `Dublin`, `80`, `Mountainous`, `Caolan_Foley`),
+ (`08/05/2019`, `Dublin`, `105`, `Hilly`, `Caolan_Foley`),
+ (`16/05/2019`, `Kildare`, `140`, `Flat`, `John_Smith`);
  
  
  
